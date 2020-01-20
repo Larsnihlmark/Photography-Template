@@ -1,11 +1,11 @@
 {
-    "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
+    "title": "MyFoto",
+    "name": "startbootstrap-myfoto",
     "version": "5.0.9",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A grayscale one page HTML theme for Bootstrap.",
+    "description": "HTML theme for Bootstrap.",
     "keywords": [
         "css",
         "sass",
@@ -14,19 +14,18 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/grayscale",
+    "homepage": "https://startbootstrap.com",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/Larsnihlmark/Bootstrap-template/issues"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Lars Nihlmark"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
+        "url": "https://github.com/Larsnihlmark/Bootstrap-template"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
