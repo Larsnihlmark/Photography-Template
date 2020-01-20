@@ -2,7 +2,7 @@
 
 One Paragraph of project description goes here
 
-# [Demo](https://larsnihlmark.github.io/Bootstrap-template/)
+# [Demo](https://larsnihlmark.github.io/Photography-Template/)
 
 ## Getting Started
 
