@@ -1,3 +1,5 @@
+
+
 (function($) {
   "use strict"; // Start of use strict
 
@@ -39,4 +41,13 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $(function() {
+		$('#pop').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');   
+		});		
+});
+
+
 })(jQuery); // End of use strict
+
