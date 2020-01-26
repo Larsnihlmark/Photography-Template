@@ -26,8 +26,6 @@
 
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-  <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> -->
-
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
   <!------ Include the above in your HEAD tag -------- -->
@@ -41,7 +39,7 @@
       </nav>
       
 
-      <!-- test cart -->
+      <!-- cart -->
       <div class="container">
         
         <div class="row justify-content-md-center">
@@ -58,6 +56,7 @@
                             <small class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> 
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
                             </small><br>
+                           <!--  Radio for Size -->
                             <span>Size</span>
                                 <div class="form-check">
                                   <input class="form-check-input position-static"  type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
@@ -96,12 +95,10 @@
                 
             </div>
             
-                    
+            <!-- Paypal modal --> 
             <div class="col-md-8 order-md-2 mb-4">
-
                 <h4 class="d-flex justify-content-between align-items-center mb-3">
                     <span class="text-light">Payment</span>
-                    
                 </h4>
                 <div class="col-xs-12" id="paypal-button-container"></div>
             </div>
@@ -117,9 +114,7 @@
             </ul>
         </footer>
     </div>
-      <!-- test -->
       
-      <!-- <div id="paypal-button-container"></div> -->
       <script>
         // Render the PayPal button into #paypal-button-container
         paypal.Buttons({
